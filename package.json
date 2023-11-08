@@ -7,7 +7,8 @@
     "start": "nodemon src/index.js localhost 8080"
   },
   "dependencies": {
-      },
+    "simple-hello-world-example": "^1.0.6"
+  },
   "devDependencies": {
     "nodemon": "1.18.4"
   },
