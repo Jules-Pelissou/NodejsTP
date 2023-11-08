@@ -6,6 +6,25 @@
     <title>TVA</title>
 </head>
 <body>
-    
+    <form action="/tva" method="get">
+        <label for="HTfield">Prix HT&nbsp;:</label>
+        <input type="text" id="HTfield" name="HT" />
+
+        <label for="tvafield">Taux TVA&nbsp;:</label>
+        <input type="text" id="tvafield" name="tva" />
+
+        <button type="submit"> Envoyer </button>
+    </form>
+
+    <form action="/tva2" method="post">
+        <label for="HTfield2">Prix HT Bis&nbsp;:</label>
+        <input type="text" id="HTfield2" name="HT" />
+
+        <label for="tvafield2">Taux TVA Bis&nbsp;:</label>
+        <input type="text" id="tvafield2" name="tva" />
+
+        <button type="submit"> Envoyer2 </button>
+    </form>
+
 </body>
 </html>
